@@ -30,6 +30,7 @@ const Question = () => {
     }
   }, [state.currentQuestionIndex, timer]);
 
+  //   Handling answers
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
   };
