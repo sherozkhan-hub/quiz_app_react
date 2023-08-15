@@ -1,6 +1,7 @@
 import StartPage from "./components/StartPage";
 import Question from "./components/question";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./index.css";
 
 function App() {
   return (
